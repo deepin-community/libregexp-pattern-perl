@@ -1,0 +1,76 @@
+libregexp-pattern-perl (0.2.14-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release(s)
+
+  [ Jonas Smedegaard ]
+  * declare compliance with Debian Policy 4.5.0
+  * use debhelper compatibility level 12 (not 10);
+    build-depend on debhelper-compat (not debhelper)
+
+ -- Jonas Smedegaard <dr@jones.dk>  Wed, 01 Apr 2020 18:04:30 +0200
+
+libregexp-pattern-perl (0.2.12-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 07 Feb 2020 16:59:04 +0100
+
+libregexp-pattern-perl (0.2.11-1) unstable; urgency=medium
+
+  [ upstream ]
+  * new release(s)
+
+  [ Jonas Smedegaard ]
+  * Update watch file:
+    + Simplify version regex.
+    + Rewrite usage comment.
+  * declare compliance with Debian Policy 4.4.1
+  * enable testsuite
+  * use debhelper compatibility mode 10
+  * extend copyright coverage for upstream author and packaging
+
+ -- Jonas Smedegaard <dr@jones.dk>  Fri, 03 Jan 2020 14:18:18 +0100
+
+libregexp-pattern-perl (0.2.8-2) unstable; urgency=medium
+
+  * Fix long description.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 04 Nov 2018 03:49:16 +0100
+
+libregexp-pattern-perl (0.2.8-1) unstable; urgency=medium
+
+  [ upstream ]
+  * New release(s).
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Jonas Smedegaard ]
+  * Update copyright info:
+    + Fix list correct issue tracker as preferred form of contact.
+    + Fix list correct alternate source URLs.
+    + Extend coverage of packaging.
+    + Use https protocol in protocol URL.
+    + Extend coverage for main upstream author.
+  * Simplify rules:
+    + Stop resolve (build-)dependencies in rules file.
+    + Use short-form dh sequencer (not cdbs).
+      Stop build-depend on cdbs.
+  * Skip testsuite build-dependencies when bootstrapping.
+  * Stop build-depend on dh-buildinfo.
+  * Wrap and sort control file.
+  * Declare compliance with Debian Policy 4.2.1.
+  * Set Rules-Requires-Root: no.
+  * Update watch file: Fix typo in usage comment.
+  * Update short and long description.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Sun, 04 Nov 2018 03:32:14 +0100
+
+libregexp-pattern-perl (0.1.4-1) unstable; urgency=low
+
+  * Initial packaging release.
+    Closes: bug#875632.
+
+ -- Jonas Smedegaard <dr@jones.dk>  Tue, 12 Sep 2017 22:24:43 +0200

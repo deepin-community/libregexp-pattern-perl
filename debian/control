@@ -1,0 +1,28 @@
+Source: libregexp-pattern-perl
+Section: perl
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 12),
+ libtest-exception-perl <!nocheck>,
+ libtest-simple-perl <!nocheck>,
+ perl,
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Jonas Smedegaard <dr@jones.dk>,
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libregexp-pattern-perl.git
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libregexp-pattern-perl
+Homepage: https://metacpan.org/pod/Regexp::Pattern
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-perl
+
+Package: libregexp-pattern-perl
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${perl:Depends},
+Description: convention/framework for modules that contain collection of regexes
+ Regexp::Pattern is a convention
+ for organizing reusable regexp patterns in modules,
+ as well as framework to provide convenience
+ in using those patterns in your program.
